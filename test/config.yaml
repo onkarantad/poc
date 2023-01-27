@@ -1,0 +1,29 @@
+#enum : STRING,INT,DATE
+#excel properties
+excelPath: D:/DataMart/exelToDb/DM_CJMS_AGG_CNT.xlsx
+sheetName: DM_CJMS_AGG_CNT
+
+#database properties (mssql/PostgreSQL/oracle)
+#for oracle -> dbHost=TNS-Name , dbSchema=wallet path
+
+#dbName: PostgreSQL
+#dbHost: localhost
+#dbPort: 5432
+#dbSchema: postgres
+#dbUser: postgres
+#dbPassword: root
+
+# oracle (dbHost=TNS_Name , dbSchema=wallet_path , dbPort = dummy)
+# --------------------
+#dbName: oracle
+#dbHost: dbsrc_high
+#dbPort: 0000
+#dbSchema: D:/DOCUMENTS/ORACLE_FREE_TIER/Wallet_dbSRC
+#dbUser: ADMIN
+#dbPassword: Oraclesrc2022
+
+
+
+
+
+

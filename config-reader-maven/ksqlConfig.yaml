@@ -1,0 +1,9 @@
+ksqlDb:
+ host: 10.245.128.143
+ port: 8088
+kafka:
+ kafkaConfigProps: 'kafkaConfighdProps.properties'
+ topics: Test_claim_DH_IDIT_SOURCE_DATA
+ grpId: console-consmer'-'test4-33
+ kafkaOffset: latest 
+ 

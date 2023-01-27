@@ -1,0 +1,21 @@
+#database properties (mssql/PostgreSQL/oracle)
+#for oracle -> dbHost=TNS-Name , dbSchema=wallet path
+
+
+#dbName: PostgreSQL
+#dbHost: localhost
+#dbPort: 5432
+#dbSchema: postgres
+#dbUser: postgres
+#dbPassword: root
+
+
+
+# oracle_wallet (dbHost=TNS_Name , dbSchema=wallet_path , dbPort = dummy)
+# --------------------
+#dbName: oracle_wallet
+#dbHost: dbsrc_high
+#dbPort: 0000
+#dbSchema: D:/DOCUMENTS/ORACLE_FREE_TIER/Wallet_dbSRC
+#dbUser: ADMIN
+#dbPassword: Oraclesrc2022

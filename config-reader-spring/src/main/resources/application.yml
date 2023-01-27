@@ -1,0 +1,107 @@
+server:
+  port: 8444
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://si-core-etl;databaseName=DATAONE_DEV_NEW
+    username: bi_user1
+    password: sql
+  sql:
+    init:
+      platform: mssql
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServerDialect
+  mvc:
+    servlet:
+      load-on-startup: 1
+  devtools:
+    restart:
+      additional-paths : /src/main/resources
+  profiles:
+    active: local
+  cache:
+    type: redis ## jcache
+    redis:
+      cache-null-values: false
+application:
+  cache:
+    cacheName: DEDUP_SSI ## Cache name
+    configPath: src/main/resources/
+    ttl: 300
+  dateFormat:
+    inputDateFormat: yyyy-MM-dd'T'HH:mm:ss
+    outputDateFormat: yyyy-MM-dd HH:mm:ss
+  keyConcatChar: '@&'
+  thread:
+    dedup: 10
+    lookup: 6666660
+    microbatch: 30
+  batch:
+    dedup: 10
+    lookup: 777770
+    microbatch: 30
+  params:
+    dedup:
+      thread: 4555
+      batch: 3333
+    lookup:
+      thread: 22222
+      batch: 6666
+    microbatch:
+      thread: 4444
+      batch: 55555
+
+logging:
+  level:
+    root: INFO
+multicache:
+  caches:
+    dedupCache:
+      name: DEDUP_SSI #redis cache name
+      sql: select * from  DATAONE_DEV.kafkaoa.Input_CMS_SSI_DEDUP_test2
+      #sql: select * from DATAONE_DEV.SSI_REDIS.Input_CMS_Dedup_new
+      preLoad: LOAD_TYPE = 'Pre_Load'
+      microBatch: LOAD_TYPE IS NULL
+      logTable: DATAONE_DEV_NEW.SI_AUDIT_SSI_ABSA.REDIS_LOG
+      enableInd: true
+    lookupCache:
+      enableInd: true
+      lookupCacheList:
+        -
+          name: MST_TABLE_VAL_LIST_TEMP
+          key: MST_TBL_VAL_SEQ_ID,MST_TBL_SI_CD
+          value: MST_VAL_SI_DESC,MST_VAL_LONG_DESC
+          fromClause: DATAONE_DEV_NEW.si_core_dwh.MST_TABLE_VAL_LIST_TEMP
+          clearMap: false
+        -
+          name: DATAONE_DEV.kafkaoa.employee
+          key: employee.ID,employee.EMAIL
+          value: employeeId.FULL_NAME,employee.FULL_NAME
+          fromClause: DATAONE_DEV.kafkaoa.employee left join DATAONE_DEV.kafkaoa.employeeId on employee.ID=employeeId.id;
+          clearMap: false
+#        -
+#          name: SSI_AUDIT_GPF.SSI_CMS_CS_ONKAR_R
+#          key: ENTITY_FULL_NM,ADDRESS
+#          value: CE_ID
+#          fromClause: SSI_AUDIT_GPF.SSI_CMS_CS_ONKAR_R
+#          clearMap: true
+#        -
+#          name: SI_CORE_DWH.USER_DETAILS
+#          key: SI_CORE_DWH.USER_DETAILS.COMPANY_ID,SI_CORE_DWH.USER_DETAILS.USER_NUM
+#          value: SI_CORE_DWH.USER_DETAILS.USER_ID
+#          fromClause: SI_CORE_DWH.USER_DETAILS
+#          clearMap: true
+#        -
+#          name: SI_CORE_DWH.USER_DETAILS
+#          key: SI_CORE_DWH.USER_DETAILS.COMPANY_ID,SI_CORE_DWH.USER_DETAILS.LAST_UPDATE_DATE
+#          value: SI_CORE_DWH.USER_DETAILS.USER_ID
+#          fromClause: SI_CORE_DWH.USER_DETAILS
+#          clearMap: true
+#        - name: SI_IDIT_ODS.AC_ACCOUNT
+#          key: ID,CONTACT_ID
+#          value: CURRENT_ACCOUNT_STATUS_ID,AGENT_NUMBER
+#          fromClause: DATAONE_DEV_NEW.SI_IDIT_ODS.AC_ACCOUNT
+#          clearMap: false

@@ -1,0 +1,1244 @@
+{
+	"contactHistory": [
+		{
+			"userContactVO": {
+				"language": {
+					"id": 101,
+					"extCode": "101",
+					"desc": "English - US"
+				},
+				"channelType": {
+					"id": 1,
+					"extCode": "1",
+					"desc": "IDIT_UI"
+				},
+				"externalContactNumber": "1",
+				"contactAddress": [
+					{
+						"@type": "contact:ContactAddressVO",
+						"updateDate": "2009-01-20T19:31:22",
+						"incorrectAddress": false,
+						"updateUserId": 1,
+						"languageVO": {
+							"id": 101,
+							"extCode": "101",
+							"desc": "English - US"
+						},
+						"addressVO": {
+							"zipCode": "9991",
+							"cityVO": {
+								"id": 894,
+								"extCode": "01157",
+								"desc": "Adegem"
+							},
+							"boxNumber": "15",
+							"id": 28943,
+							"houseNr": "156",
+							"geoLocationTypeVO": {
+								"id": 10004,
+								"desc": "APPROXIMATE"
+							},
+							"updateUserId": 1,
+							"noProvince": true,
+							"geoElevation": 10.9862919,
+							"updateDate": "2015-01-19T11:27:20",
+							"countryVO": {
+								"id": 1,
+								"extCode": "BE",
+								"desc": "Belgium"
+							},
+							"streetName": "Boedapeststraat",
+							"cityName": "Adegem",
+							"inUse": true,
+							"isValidForBlocking": 0,
+							"isValidForAnonymization": 0,
+							"geoLongitude": 3.4900074,
+							"geoLatitude": 51.2045152,
+							"updateVersion": 2
+						},
+						"id": 28845,
+						"addressTypeVO": {
+							"id": 1,
+							"extCode": "1",
+							"desc": "Private address"
+						},
+						"updateVersion": 1
+					}
+				],
+				"id": 1,
+				"updateUserId": 1,
+				"headOfFamily": false,
+				"nationality": {
+					"id": 1,
+					"extCode": "BE",
+					"desc": "Belgium"
+				},
+				"isInGroupAgrmntBatch": false,
+				"residentFlag": false,
+				"name": "Administrator",
+				"agentAjaxPresent": "Administrator Boedapeststraat 156 9991 Adegem Belgium",
+				"intermediaryParameters": [],
+				"updateDate": "2020-11-03T11:20:40",
+				"nameLower": "administrator",
+				"processingStatusVO": {
+					"id": 10000,
+					"desc": "Available for the processing"
+				},
+				"entityTypeVO": {
+					"id": 1,
+					"extCode": "1",
+					"desc": "Individual"
+				},
+				"updateVersion": 148
+			},
+			"updateDate": "2020-09-16T14:16:10",
+			"contactDateOfBirth": "1988-09-13T00:00:00",
+			"updateUserId": 1,
+			"contactName": "Wong",
+			"contactFirstName": "Astrid",
+			"id": 1,
+			"updateVersion": 1
+		}
+	],
+	"titleVO": {
+		"id": 3,
+		"extCode": "3",
+		"desc": "Miss"
+	},
+	"language": {
+		"id": 101,
+		"extCode": "101",
+		"desc": "English - US"
+	},
+	"channelType": {
+		"id": 1,
+		"extCode": "1",
+		"desc": "IDIT_UI"
+	},
+	"adultChildren": 0,
+	"externalContactNumber": "1",
+	"educationVO": {
+		"id": 4,
+		"desc": "University"
+	},
+	"familyStatusVO": {
+		"id": 1,
+		"extCode": "1",
+		"desc": "Single"
+	},
+	"children": 0,
+	"vatTypeVO": {
+		"id": 3,
+		"desc": "Non-VAT-taxable"
+	},
+	"birthCountryVO": {
+		"id": 7,
+		"extCode": "AI",
+		"desc": "Anguilla"
+	},
+	"contactAddress": [
+		{
+			"@type": "contact:ContactAddressVO",
+			"updateDate": "2020-10-05T13:23:08",
+			"updateDate2": "2020-07-14T11:17:14",
+			"incorrectAddress": false,
+			"updateUserId": 1,
+			"companyId": 101,
+			"updateUserId3": 1000004,
+			"firstName": "john",
+			"middleName": "s",
+			"lastName": "smith",
+			"age": 34,
+			"email": "6@ymail.com",
+			"address": "6|Bengaluru",
+			"audSrcName": "IDIT",
+			"languageVO": {
+				"id": 101,
+				"extCode": "101",
+				"desc": "English - US"
+			},
+			"addressVO": {
+				"zipCode": "21311",
+				"boxNumber": "12314",
+				"id": 1,
+				"houseNr": "23",
+				"updateUserId": 1,
+				"noProvince": true,
+				"provinceName": "wefwf",
+				"updateDate": "2020-09-16T14:14:03",
+				"pob": "423",
+				"countryVO": {
+					"id": 7,
+					"extCode": "AI",
+					"desc": "Anguilla"
+				},
+				"streetName": "sdsdf",
+				"cityName": "HK",
+				"inUse": true,
+				"isValidForBlocking": 0,
+				"isValidForAnonymization": 0,
+				"remarks": "dfsf",
+				"updateVersion": 1
+			},
+			"discontinueDate": "2020-10-05T13:23:08",
+			"id": 1,
+			"addressTypeVO": {
+				"id": 1,
+				"extCode": "1",
+				"desc": "Private address"
+			},
+			"updateVersion": 2
+		}
+	],
+	"id": 4436147,
+	"contactTest": {
+		"date": "1975-01-01",
+		"email": "duuqmi.eflqjo@gmail.com",
+		"tel": "9qqlYIbhhn"
+	},
+	"professionVO": {
+		"id": 6,
+		"extCode": "6",
+		"desc": "Trader"
+	},
+	"contactTelephone": [
+		{
+			"@type": "contact:ContactTelephoneVO",
+			"updateDate": "2021-03-03T12:58:26",
+			"telephoneNumber": "24365434",
+			"updateUserId": 1,
+			"telephoneExtension": "143",
+			"telephoneType": {
+				"id": 4,
+				"extCode": "4",
+				"desc": "Mobile"
+			},
+			"countryDialCode": {
+				"id": 1,
+				"extCode": "Belgium",
+				"desc": "32"
+			},
+			"incorrectPhone": false,
+			"discontinueDate": "2021-03-03T12:58:26",
+			"telephonePrefixVO": {
+				"id": 48,
+				"desc": "0485"
+			},
+			"id": 1,
+			"telephonePrefix": "0485",
+			"remarks": "sdfsf",
+			"updateVersion": 2
+		}
+	],
+	"updateUserId": 1,
+	"agentRatings": [],
+	"contactBankAccount": [
+		{
+			"updateDate": "2021-03-01T17:20:43",
+			"accountNrEncrypted": "WqFsD1uuFcvldLCTk1HxAg==",
+			"paymentChanelVO": {
+				"id": 1,
+				"desc": "Bank Accounts"
+			},
+			"bankName": "ajsfkjsfdkn",
+			"countryVO": {
+				"id": 7,
+				"extCode": "AI",
+				"desc": "Anguilla"
+			},
+			"discontinueDate": "2021-03-01T17:19:39",
+			"id": 1,
+			"isBankAccountDetailsKnown": false,
+			"updateUserId": 1,
+			"contactId": 1,
+			"ibanReference": "AT483200000012345864",
+			"branchName": "nvksjdf",
+			"bankAccountExternalNumber": "37619",
+			"bicCode": "asdjasd",
+			"directDebitMandate": [],
+			"remarks": "sdfbs",
+			"updateVersion": 2
+		}
+	],
+	"firstName": "Astrid",
+	"headOfFamily": false,
+	"consentList": [
+		{
+			"updateDate": "2021-03-03T12:58:26",
+			"updateUserId": 1,
+			"endDate": "2021-03-03T12:58:19",
+			"entityNumber": 310,
+			"entityId": 1,
+			"consentModeVO": {
+				"id": 10002,
+				"desc": "Email"
+			},
+			"consentTypeVO": {
+				"id": 10006,
+				"extCode": "10006",
+				"desc": "Permission to send out electronic marketing by email"
+			},
+			"discontinueDate": "2021-03-03T12:58:19",
+			"providedByContactId": 1,
+			"id": 1,
+			"consentHistoryVOs": [],
+			"startDate": "2004-02-04T00:00:00",
+			"remarks": "sgsdgs",
+			"updateVersion": 10
+		}
+	],
+	"nationality": {
+		"id": 7,
+		"extCode": "AI",
+		"desc": "Anguilla"
+	},
+	"isInGroupAgrmntBatch": false,
+	"residentFlag": false,
+	"contactBusinessActivities": [],
+	"contactAffinityMembership": [
+		{
+			"affinityVO": {
+				"id": 0,
+				"desc": "All system contacts"
+			},
+			"updateDate": "2020-09-16T14:16:08",
+			"updateUserId": 1,
+			"id": 1,
+			"membershipId": 65282,
+			"updateVersion": 1
+		}
+	],
+	"name": "Wong",
+	"agentAjaxPresent": "Astrid ABC Wong 23 sdsdfdas HK 21311 Anguilla",
+	"contactScores": [],
+	"intermediaryParameters": [],
+	"updateDate": "2021-03-03T12:58:26",
+	"isDreamer": {
+		"id": 0,
+		"desc": "No"
+	},
+	"dateOfDeath": "2016-02-03T00:00:00",
+	"detailsOfLastDream": "sasafas",
+	"contactRelationship": [
+		{
+			"updateDate": "2020-09-16T14:13:59",
+			"updateUserId": 1,
+			"id": 1,
+			"effectiveDate": "2020-09-16T00:00:00",
+			"relationshipTypeVO": {
+				"id": 43,
+				"desc": "Client managed by"
+			},
+			"relatedContact": {
+				"id": 1,
+				"headOfFamily": false,
+				"name": "Administrator",
+				"entityTypeVO": {
+					"id": 1,
+					"extCode": "1",
+					"desc": "Individual"
+				}
+			},
+			"updateVersion": 1
+		}
+	],
+	"nameLower": "wong",
+	"preferredDeliveryType": {
+		"id": 2,
+		"extCode": "2",
+		"desc": "Regular mail"
+	},
+	"firstNameLower": "astrid",
+	"processingStatusVO": {
+		"id": 10000,
+		"desc": "Available for the processing"
+	},
+	"eyeColor": {
+		"id": 10654,
+		"extCode": "green",
+		"desc": "Green"
+	},
+	"contactRole": [
+		{
+			"updateDate": "2020-09-17T13:33:10",
+			"updateUserId": 1,
+			"tContactRoleVO": {
+				"id": 9,
+				"desc": "Service provider"
+			},
+			"id": 1,
+			"effectiveDate": "2020-09-01T00:00:00",
+			"updateVersion": 1
+		}
+	],
+	"contactIdentifier": [
+		{
+			"country": {
+				"id": 7,
+				"extCode": "AI",
+				"desc": "Anguilla"
+			},
+			"updateDate": "2021-03-01T17:08:01",
+			"idType": {
+				"id": 6,
+				"extCode": "6",
+				"desc": "Social Security Number"
+			},
+			"updateUserId": 1,
+			"discontinueDate": "2021-03-01T17:03:25",
+			"contactId": 1,
+			"consentProvided": false,
+			"idValue": "asdasdasd",
+			"id": 1,
+			"updateVersion": 2
+		}
+	],
+	"personDrivingData": [
+		{
+			"updateDate": "2021-03-02T14:21:56",
+			"updateUserId": 1,
+			"driverConvictionVOList": [],
+			"discontinueDate": "2021-03-02T14:25:53",
+			"id": 1,
+			"drivingLicenseYear": 2010,
+			"versionNr": 2,
+			"effectiveDate": "2021-03-02T14:21:56",
+			"drivingLicenseType": {
+				"id": 5,
+				"extCode": "B",
+				"desc": "Car"
+			},
+			"drivingLicenseMonth": 8,
+			"updateVersion": 2
+		}
+	],
+	"contactEmail": [
+		{
+			"@type": "contact:ContactEmailVO",
+			"emailTypeVO": {
+				"id": 1,
+				"extCode": "1",
+				"desc": "Private"
+			},
+			"updateDate": "2021-03-03T12:58:26",
+			"updateUserId": 1,
+			"discontinueDate": "2021-03-03T12:58:26",
+			"contactId": 1,
+			"incorrectEmail": false,
+			"id": 1,
+			"email": "astridwong@abc.com",
+			"updateVersion": 2
+		},
+		{
+			"@type": "contact:ContactEmailVO",
+			"emailTypeVO": {
+				"id": 1,
+				"extCode": "1",
+				"desc": "Private"
+			},
+			"updateDate": "2021-03-03T12:08:25",
+			"updateUserId": 1,
+			"contactId": 1,
+			"incorrectEmail": false,
+			"id": 40509,
+			"email": "astridwongabc@abc.com",
+			"updateVersion": 1
+		}
+	],
+	"contactSubscriptions": [],
+	"dateOfBirth": "1988-09-13T00:00:00",
+	"genderVO": {
+		"id": 1,
+		"extCode": "1",
+		"desc": "Female"
+	},
+	"contactServiceProvider": [
+		{
+			"serviceProviderTypeVO": {
+				"id": 31,
+				"desc": "Private investigator"
+			},
+			"updateDate": "2020-09-17T13:33:10",
+			"suspensionHistoryVOs": [],
+			"serviceProviderEmployeeVOs": [],
+			"serviceProviderBrandCompanyVOs": [
+				{
+					"updateDate": "2020-09-17T13:35:17",
+					"updateUserId": 1,
+					"contactVO": {
+						"language": {
+							"id": 101,
+							"extCode": "101",
+							"desc": "English - US"
+						},
+						"channelType": {
+							"id": 1,
+							"extCode": "1",
+							"desc": "IDIT_UI"
+						},
+						"externalContactNumber": "28810",
+						"contactAddress": [
+							{
+								"@type": "contact:ContactAddressVO",
+								"updateDate": "2008-09-15T15:40:01",
+								"incorrectAddress": false,
+								"updateUserId": 1,
+								"languageVO": {
+									"id": 101,
+									"extCode": "101",
+									"desc": "English - US"
+								},
+								"addressVO": {
+									"zipCode": "1000",
+									"id": 28885,
+									"houseNr": "1562",
+									"geoLocationTypeVO": {
+										"id": 10004,
+										"desc": "APPROXIMATE"
+									},
+									"updateUserId": 1,
+									"noProvince": true,
+									"geoElevation": 288.0924072,
+									"updateDate": "2015-01-19T11:27:19",
+									"countryVO": {
+										"id": 99,
+										"extCode": "IL",
+										"desc": "Israel"
+									},
+									"streetName": "Gold",
+									"cityName": "Beer Sheva",
+									"inUse": true,
+									"isValidForBlocking": 0,
+									"isValidForAnonymization": 0,
+									"geoLongitude": 34.791462,
+									"geoLatitude": 31.252973,
+									"updateVersion": 2
+								},
+								"discontinueDate": "2012-10-16T00:00:00",
+								"id": 28807,
+								"addressTypeVO": {
+									"id": 6,
+									"extCode": "6",
+									"desc": "Registered office"
+								},
+								"updateVersion": 1
+							},
+							{
+								"@type": "contact:ContactAddressVO",
+								"updateDate": "2012-10-16T00:00:00",
+								"incorrectAddress": false,
+								"updateUserId": 1,
+								"languageVO": {
+									"id": 101,
+									"extCode": "101",
+									"desc": "English - US"
+								},
+								"addressVO": {
+									"zipCode": "1000",
+									"id": 39618,
+									"houseNr": "1562",
+									"updateUserId": 1,
+									"noProvince": true,
+									"updateDate": "2012-10-16T00:00:00",
+									"countryVO": {
+										"id": 214,
+										"extCode": "US",
+										"desc": "United States"
+									},
+									"streetName": "Gold",
+									"cityName": "Beer Sheva",
+									"inUse": true,
+									"isValidForBlocking": 0,
+									"isValidForAnonymization": 0,
+									"updateVersion": 1
+								},
+								"id": 36942,
+								"addressTypeVO": {
+									"id": 6,
+									"extCode": "6",
+									"desc": "Registered office"
+								},
+								"updateVersion": 1
+							}
+						],
+						"currencyVO": {
+							"id": 1,
+							"extCode": "EUR",
+							"desc": "Euro"
+						},
+						"id": 28810,
+						"updateUserId": 5000042,
+						"headOfFamily": false,
+						"residentFlag": false,
+						"name": "BC1",
+						"agentAjaxPresent": "BC1 1562 Gold Beer Sheva 1000 United States",
+						"intermediaryParameters": [],
+						"updateDate": "2015-03-25T10:17:55",
+						"nameLower": "bc1",
+						"processingStatusVO": {
+							"id": 10000,
+							"desc": "Available for the processing"
+						},
+						"entityTypeVO": {
+							"id": 101,
+							"extCode": "101",
+							"desc": "Legal entity"
+						},
+						"businessActivityTypeVO": {
+							"id": 67130,
+							"extCode": "67130",
+							"desc": "Activities auxiliary to financial intermediation n.e.c."
+						},
+						"updateVersion": 13
+					},
+					"id": 27671,
+					"updateVersion": 1
+				}
+			],
+			"agreementEdDate": "2020-09-03T00:00:00",
+			"agreementStartDate": "2020-09-01T00:00:00",
+			"serviceProviderSkillsList": [],
+			"currencyVO": {
+				"id": 1,
+				"extCode": "EUR",
+				"desc": "Euro"
+			},
+			"serviceProviderAreaVOs": [],
+			"id": 1,
+			"agreementDatesHistoryVOs": [
+				{
+					"updateDate": "2020-09-17T13:35:26",
+					"serviceProviderEmployeeHistoryVOs": [],
+					"updateUserId": 1,
+					"endDate": "2020-09-03T00:00:00",
+					"agreementStartDate": "2020-09-01T00:00:00",
+					"serviceProviderAreaHistoryVOs": [],
+					"id": 27727,
+					"serviceProviderBrandCompanyHistoryVOs": [
+						{
+							"updateDate": "2020-09-17T13:35:26",
+							"updateUserId": 1,
+							"contactVO": {
+								"language": {
+									"id": 101,
+									"extCode": "101",
+									"desc": "English - US"
+								},
+								"channelType": {
+									"id": 1,
+									"extCode": "1",
+									"desc": "IDIT_UI"
+								},
+								"externalContactNumber": "28810",
+								"contactAddress": [
+									{
+										"@type": "contact:ContactAddressVO",
+										"updateDate": "2008-09-15T15:40:01",
+										"incorrectAddress": false,
+										"updateUserId": 1,
+										"languageVO": {
+											"id": 101,
+											"extCode": "101",
+											"desc": "English - US"
+										},
+										"addressVO": {
+											"zipCode": "1000",
+											"id": 28885,
+											"houseNr": "1562",
+											"geoLocationTypeVO": {
+												"id": 10004,
+												"desc": "APPROXIMATE"
+											},
+											"updateUserId": 1,
+											"noProvince": true,
+											"geoElevation": 288.0924072,
+											"updateDate": "2015-01-19T11:27:19",
+											"countryVO": {
+												"id": 99,
+												"extCode": "IL",
+												"desc": "Israel"
+											},
+											"streetName": "Gold",
+											"cityName": "Beer Sheva",
+											"inUse": true,
+											"isValidForBlocking": 0,
+											"isValidForAnonymization": 0,
+											"geoLongitude": 34.791462,
+											"geoLatitude": 31.252973,
+											"updateVersion": 2
+										},
+										"discontinueDate": "2012-10-16T00:00:00",
+										"id": 28807,
+										"addressTypeVO": {
+											"id": 6,
+											"extCode": "6",
+											"desc": "Registered office"
+										},
+										"updateVersion": 1
+									},
+									{
+										"@type": "contact:ContactAddressVO",
+										"updateDate": "2012-10-16T00:00:00",
+										"incorrectAddress": false,
+										"updateUserId": 1,
+										"languageVO": {
+											"id": 101,
+											"extCode": "101",
+											"desc": "English - US"
+										},
+										"addressVO": {
+											"zipCode": "1000",
+											"id": 39618,
+											"houseNr": "1562",
+											"updateUserId": 1,
+											"noProvince": true,
+											"updateDate": "2012-10-16T00:00:00",
+											"countryVO": {
+												"id": 214,
+												"extCode": "US",
+												"desc": "United States"
+											},
+											"streetName": "Gold",
+											"cityName": "Beer Sheva",
+											"inUse": true,
+											"isValidForBlocking": 0,
+											"isValidForAnonymization": 0,
+											"updateVersion": 1
+										},
+										"id": 36942,
+										"addressTypeVO": {
+											"id": 6,
+											"extCode": "6",
+											"desc": "Registered office"
+										},
+										"updateVersion": 1
+									}
+								],
+								"currencyVO": {
+									"id": 1,
+									"extCode": "EUR",
+									"desc": "Euro"
+								},
+								"id": 28810,
+								"updateUserId": 5000042,
+								"headOfFamily": false,
+								"residentFlag": false,
+								"name": "BC1",
+								"agentAjaxPresent": "BC1 1562 Gold Beer Sheva 1000 United States",
+								"intermediaryParameters": [],
+								"updateDate": "2015-03-25T10:17:55",
+								"nameLower": "bc1",
+								"processingStatusVO": {
+									"id": 10000,
+									"desc": "Available for the processing"
+								},
+								"entityTypeVO": {
+									"id": 101,
+									"extCode": "101",
+									"desc": "Legal entity"
+								},
+								"businessActivityTypeVO": {
+									"id": 67130,
+									"extCode": "67130",
+									"desc": "Activities auxiliary to financial intermediation n.e.c."
+								},
+								"updateVersion": 13
+							},
+							"changeCode": 1,
+							"id": 27463,
+							"updateVersion": 1
+						}
+					],
+					"updateVersion": 1
+				}
+			],
+			"litigationServiceProviderFlag": false,
+			"updateUserId": 1,
+			"contactId": 1,
+			"contactVO": {
+				"titleVO": {
+					"id": 3,
+					"extCode": "3",
+					"desc": "Miss"
+				},
+				"language": {
+					"id": 101,
+					"extCode": "101",
+					"desc": "English - US"
+				},
+				"channelType": {
+					"id": 1,
+					"extCode": "1",
+					"desc": "IDIT_UI"
+				},
+				"adultChildren": 0,
+				"externalContactNumber": "1",
+				"educationVO": {
+					"id": 4,
+					"desc": "University"
+				},
+				"familyStatusVO": {
+					"id": 1,
+					"extCode": "1",
+					"desc": "Single"
+				},
+				"children": 0,
+				"vatTypeVO": {
+					"id": 3,
+					"desc": "Non-VAT-taxable"
+				},
+				"birthCountryVO": {
+					"id": 7,
+					"extCode": "AI",
+					"desc": "Anguilla"
+				},
+				"contactAddress": [
+					{
+						"@type": "contact:ContactAddressVO",
+						"updateDate": "2020-10-05T13:23:08",
+						"incorrectAddress": false,
+						"updateUserId": 1,
+						"languageVO": {
+							"id": 101,
+							"extCode": "101",
+							"desc": "English - US"
+						},
+						"addressVO": {
+							"zipCode": "21311",
+							"boxNumber": "12314",
+							"id": 64103,
+							"houseNr": "23",
+							"updateUserId": 1,
+							"noProvince": true,
+							"provinceName": "wefwf",
+							"updateDate": "2020-09-16T14:14:03",
+							"pob": "423",
+							"countryVO": {
+								"id": 7,
+								"extCode": "AI",
+								"desc": "Anguilla"
+							},
+							"streetName": "sdsdf",
+							"cityName": "HK",
+							"inUse": true,
+							"isValidForBlocking": 0,
+							"isValidForAnonymization": 0,
+							"remarks": "dfsf",
+							"updateVersion": 1
+						},
+						"discontinueDate": "2020-10-05T13:23:08",
+						"id": 57508,
+						"addressTypeVO": {
+							"id": 1,
+							"extCode": "1",
+							"desc": "Private address"
+						},
+						"updateVersion": 2
+					},
+					{
+						"@type": "contact:ContactAddressVO",
+						"updateDate": "2020-10-05T13:23:08",
+						"incorrectAddress": false,
+						"updateUserId": 1,
+						"languageVO": {
+							"id": 101,
+							"extCode": "101",
+							"desc": "English - US"
+						},
+						"addressVO": {
+							"zipCode": "21311",
+							"boxNumber": "12314",
+							"id": 65595,
+							"houseNr": "23",
+							"updateUserId": 1,
+							"noProvince": true,
+							"provinceName": "wefwf",
+							"updateDate": "2020-10-05T13:23:08",
+							"pob": "423",
+							"countryVO": {
+								"id": 7,
+								"extCode": "AI",
+								"desc": "Anguilla"
+							},
+							"streetName": "sdsdfdas",
+							"cityName": "HK",
+							"inUse": true,
+							"isValidForBlocking": 0,
+							"isValidForAnonymization": 0,
+							"remarks": "dfsf",
+							"updateVersion": 1
+						},
+						"id": 58998,
+						"addressTypeVO": {
+							"id": 1,
+							"extCode": "1",
+							"desc": "Private address"
+						},
+						"updateVersion": 1
+					}
+				],
+				"id": 1,
+				"professionVO": {
+					"id": 6,
+					"extCode": "6",
+					"desc": "Trader"
+				},
+				"contactTelephone": [
+					{
+						"@type": "contact:ContactTelephoneVO",
+						"updateDate": "2021-03-03T12:58:26",
+						"telephoneNumber": "24365434",
+						"updateUserId": 1,
+						"telephoneExtension": "143",
+						"telephoneType": {
+							"id": 4,
+							"extCode": "4",
+							"desc": "Mobile"
+						},
+						"countryDialCode": {
+							"id": 1,
+							"extCode": "Belgium",
+							"desc": "32"
+						},
+						"incorrectPhone": false,
+						"discontinueDate": "2021-03-03T12:58:26",
+						"telephonePrefixVO": {
+							"id": 48,
+							"desc": "0485"
+						},
+						"id": 51482,
+						"telephonePrefix": "0485",
+						"remarks": "sdfsf",
+						"updateVersion": 2
+					},
+					{
+						"@type": "contact:ContactTelephoneVO",
+						"updateDate": "2021-03-03T12:07:25",
+						"telephoneNumber": "242983458",
+						"updateUserId": 1,
+						"telephoneExtension": "022",
+						"telephoneType": {
+							"id": 2,
+							"extCode": "2",
+							"desc": "Work telephone"
+						},
+						"countryDialCode": {
+							"id": 1,
+							"extCode": "Belgium",
+							"desc": "32"
+						},
+						"incorrectPhone": false,
+						"telephonePrefixVO": {
+							"id": 11,
+							"extCode": "LEUVEN",
+							"desc": "016"
+						},
+						"id": 55275,
+						"telephonePrefix": "016",
+						"remarks": "ONLY Work",
+						"updateVersion": 1
+					}
+				],
+				"updateUserId": 1,
+				"firstName": "Astrid",
+				"headOfFamily": false,
+				"nationality": {
+					"id": 7,
+					"extCode": "AI",
+					"desc": "Anguilla"
+				},
+				"isInGroupAgrmntBatch": false,
+				"residentFlag": false,
+				"name": "Wong",
+				"agentAjaxPresent": "Astrid ABC Wong 23 sdsdfdas HK 21311 Anguilla",
+				"intermediaryParameters": [],
+				"updateDate": "2021-03-03T12:58:26",
+				"isDreamer": {
+					"id": 0,
+					"desc": "No"
+				},
+				"dateOfDeath": "2016-02-03T00:00:00",
+				"detailsOfLastDream": "sasafas",
+				"nameLower": "wong",
+				"preferredDeliveryType": {
+					"id": 2,
+					"extCode": "2",
+					"desc": "Regular mail"
+				},
+				"firstNameLower": "astrid",
+				"processingStatusVO": {
+					"id": 10000,
+					"desc": "Available for the processing"
+				},
+				"eyeColor": {
+					"id": 10654,
+					"extCode": "green",
+					"desc": "Green"
+				},
+				"contactRole": [
+					{
+						"updateDate": "2020-09-17T13:33:10",
+						"updateUserId": 1,
+						"tContactRoleVO": {
+							"id": 9,
+							"desc": "Service provider"
+						},
+						"id": 42425,
+						"effectiveDate": "2020-09-01T00:00:00",
+						"updateVersion": 1
+					},
+					{
+						"updateDate": "2020-09-18T19:11:11",
+						"updateUserId": 1,
+						"tContactRoleVO": {
+							"id": 16,
+							"desc": "Policyholder"
+						},
+						"id": 42427,
+						"effectiveDate": "2020-09-18T19:11:11",
+						"updateVersion": 1
+					},
+					{
+						"updateDate": "2020-11-02T09:22:51",
+						"updateUserId": 1,
+						"tContactRoleVO": {
+							"id": 27,
+							"desc": "Prospect"
+						},
+						"id": 42908,
+						"effectiveDate": "2020-11-02T09:22:51",
+						"updateVersion": 1
+					},
+					{
+						"updateDate": "2020-09-17T13:32:09",
+						"updateUserId": 1,
+						"tContactRoleVO": {
+							"id": 7,
+							"desc": "Account Manager"
+						},
+						"id": 42424,
+						"effectiveDate": "2020-06-10T00:00:00",
+						"updateVersion": 1
+					}
+				],
+				"contactIdentifier": [
+					{
+						"country": {
+							"id": 7,
+							"extCode": "AI",
+							"desc": "Anguilla"
+						},
+						"updateDate": "2021-03-01T17:08:01",
+						"idType": {
+							"id": 6,
+							"extCode": "6",
+							"desc": "Social Security Number"
+						},
+						"updateUserId": 1,
+						"discontinueDate": "2021-03-01T17:03:25",
+						"contactId": 1,
+						"consentProvided": false,
+						"idValue": "asdasdasd",
+						"id": 23076,
+						"updateVersion": 2
+					},
+					{
+						"country": {
+							"id": 2,
+							"extCode": "AL",
+							"desc": "Albania"
+						},
+						"updateDate": "2021-03-01T17:03:44",
+						"idType": {
+							"id": 10001,
+							"extCode": "10001",
+							"desc": "Health Care Provider Number"
+						},
+						"updateUserId": 1,
+						"contactId": 1,
+						"consentProvided": false,
+						"idValue": "10001",
+						"id": 25486,
+						"updateVersion": 1
+					}
+				],
+				"contactEmail": [
+					{
+						"@type": "contact:ContactEmailVO",
+						"emailTypeVO": {
+							"id": 1,
+							"extCode": "1",
+							"desc": "Private"
+						},
+						"updateDate": "2021-03-03T12:58:26",
+						"updateUserId": 1,
+						"discontinueDate": "2021-03-03T12:58:26",
+						"contactId": 1,
+						"incorrectEmail": false,
+						"id": 37598,
+						"email": "astridwong@abc.com",
+						"updateVersion": 2
+					},
+					{
+						"@type": "contact:ContactEmailVO",
+						"emailTypeVO": {
+							"id": 1,
+							"extCode": "1",
+							"desc": "Private"
+						},
+						"updateDate": "2021-03-03T12:08:25",
+						"updateUserId": 1,
+						"contactId": 1,
+						"incorrectEmail": false,
+						"id": 40509,
+						"email": "astridwongabc@abc.com",
+						"updateVersion": 1
+					}
+				],
+				"dateOfBirth": "1988-09-13T00:00:00",
+				"genderVO": {
+					"id": 1,
+					"extCode": "1",
+					"desc": "Female"
+				},
+				"entityTypeVO": {
+					"id": 1,
+					"extCode": "1",
+					"desc": "Individual"
+				},
+				"preferredDeliveryAddressVO": {
+					"@type": "contact:ContactAddressVO",
+					"updateDate": "2020-10-05T13:23:08",
+					"incorrectAddress": false,
+					"updateUserId": 1,
+					"languageVO": {
+						"id": 101,
+						"extCode": "101",
+						"desc": "English - US"
+					},
+					"addressVO": {
+						"zipCode": "21311",
+						"boxNumber": "12314",
+						"id": 65595,
+						"houseNr": "23",
+						"updateUserId": 1,
+						"noProvince": true,
+						"provinceName": "wefwf",
+						"updateDate": "2020-10-05T13:23:08",
+						"pob": "423",
+						"countryVO": {
+							"id": 7,
+							"extCode": "AI",
+							"desc": "Anguilla"
+						},
+						"streetName": "sdsdfdas",
+						"cityName": "HK",
+						"inUse": true,
+						"isValidForBlocking": 0,
+						"isValidForAnonymization": 0,
+						"remarks": "dfsf",
+						"updateVersion": 1
+					},
+					"id": 58998,
+					"addressTypeVO": {
+						"id": 1,
+						"extCode": "1",
+						"desc": "Private address"
+					},
+					"updateVersion": 1
+				},
+				"middleName": "ABC",
+				"middleNameLower": "abc",
+				"updateVersion": 57
+			},
+			"competencyVOs": [],
+			"priority": 0,
+			"claimServiceProviderFlag": false,
+			"remarks": "asdsad",
+			"updateVersion": 1
+		}
+	],
+	"contactStatus": [
+		{
+			"updateDate": "2021-03-02T14:32:28",
+			"statusVO": {
+				"id": 9,
+				"desc": "Blacklisted"
+			},
+			"comments": "ersdada",
+			"updateUserId": 1,
+			"discontinueDate": "2021-03-02T14:32:18",
+			"id": 1,
+			"updateVersion": 2
+		}
+	],
+	"entityTypeVO": {
+		"id": 1,
+		"extCode": "1",
+		"desc": "Individual"
+	},
+	"preferredDeliveryAddressVO": {
+		"@type": "contact:ContactAddressVO",
+		"updateDate": "2020-10-05T13:23:08",
+		"incorrectAddress": false,
+		"updateUserId": 1,
+		"languageVO": {
+			"id": 101,
+			"extCode": "101",
+			"desc": "English - US"
+		},
+		"addressVO": {
+			"zipCode": "21311",
+			"boxNumber": "12314",
+			"id": 65595,
+			"houseNr": "23",
+			"updateUserId": 1,
+			"noProvince": true,
+			"provinceName": "wefwf",
+			"updateDate": "2020-10-05T13:23:08",
+			"pob": "423",
+			"countryVO": {
+				"id": 7,
+				"extCode": "AI",
+				"desc": "Anguilla"
+			},
+			"streetName": "sdsdfdas",
+			"cityName": "HK",
+			"inUse": true,
+			"isValidForBlocking": 0,
+			"isValidForAnonymization": 0,
+			"remarks": "dfsf",
+			"updateVersion": 1
+		},
+		"id": 58998,
+		"addressTypeVO": {
+			"id": 1,
+			"extCode": "1",
+			"desc": "Private address"
+		},
+		"updateVersion": 1
+	},
+	"contactCriminalConvictions": [
+		{
+			"updateDate": "2021-01-22T09:19:18",
+			"updateUserId": 1,
+			"convictionDate": "2016-01-01T00:00:00",
+			"remark": "afsafa",
+			"id": 20002,
+			"convictionTypeVO": {
+				"id": 10010,
+				"desc": "Dangerous Driving"
+			},
+			"versionNr": 1,
+			"effectiveDate": "2021-01-22T09:19:18",
+			"convictionResultVO": {
+				"id": 10012,
+				"desc": "6 Month Suspension"
+			},
+			"updateVersion": 1
+		}
+	],
+	"middleName": "ABC",
+	"middleNameLower": "abc",
+	"updateVersion": 57
+}

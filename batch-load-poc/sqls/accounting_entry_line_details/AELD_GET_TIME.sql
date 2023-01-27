@@ -1,0 +1,1 @@
+select min(UPDATE_DATE) min_date,max(UPDATE_DATE) max_date from SI_IDIT_ODS.AC_ENTRY;

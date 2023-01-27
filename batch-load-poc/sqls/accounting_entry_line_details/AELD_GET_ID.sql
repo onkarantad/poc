@@ -1,0 +1,1 @@
+select min(ID) min_id,max(ID) max_id from SI_IDIT_ODS.AC_ENTRY;

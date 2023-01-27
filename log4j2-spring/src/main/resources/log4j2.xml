@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+    <Properties>
+        <Property name="basePath">D:/programming/logs</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <RollingFile name="fileLogger"
+                     fileName="${basePath}/app.log"
+                     filePattern="${basePath}/app-%d{yyyy-MM-dd}.log">
+            <PatternLayout>
+                <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+                </pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true" />
+                <SizeBasedTriggeringPolicy size="10MB" />
+            </Policies>
+            <!-- Max 10 files will be created everyday -->
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+
+        <SMTP name="mail" subject="Error Log From Log4j"
+              from="mail@gmail.com"
+              to="mail@gmail.com"
+              smtpHost="smtp.gmail.com"
+              smtpPort="25"
+              smtpUsername="mail@gmail.com"
+              smtpPassword="somekey"
+              bufferSize="100">
+        </SMTP>
+
+
+    </Appenders>
+    <Loggers>
+        <Logger name="logger" level="info" additivity="false">
+            <appender-ref ref="fileLogger" />
+            <appender-ref ref="console" />
+        </Logger>
+        <Root level="error" additivity="false">
+            <appender-ref ref="mail" />
+            <appender-ref ref="fileLogger" />
+            <appender-ref ref="console" />
+        </Root>
+    </Loggers>
+</Configuration>
